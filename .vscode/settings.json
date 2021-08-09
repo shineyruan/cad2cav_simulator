@@ -205,6 +205,7 @@
     ],
     "python.analysis.completeFunctionParens": true,
     "cSpell.words": [
+        "Omniverse",
         "carb",
         "omni"
     ]
