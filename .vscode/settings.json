@@ -209,5 +209,6 @@
         "carb",
         "omni",
         "rospy"
-    ]
+    ],
+    "ros.distro": "noetic"
 }
