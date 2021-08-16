@@ -23,6 +23,10 @@ class Simulator:
         self.kit = OmniKitHelper(config=CONFIG)
         self.usd_path = ""
 
+        # enable ROS bridge extension
+        ext_manager = omni.kit.app.get_app().get_extension_manager()
+        ext_manager.set_extension_enabled_immediate("omni.isaac.ros_bridge", True)
+
     def start(self) -> None:
         self.kit.play()
 
