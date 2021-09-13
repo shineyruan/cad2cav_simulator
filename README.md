@@ -16,3 +16,6 @@ For launching the simulator, type
 source setenv.sh
 python3 run.py
 ```
+
+## For Developers
+This repo uses [YAPF](https://github.com/google/yapf) for coding style maintenance. **It is strong recommended for developers to pipe all contributions through YAPF before pushing onto this code base.** 
